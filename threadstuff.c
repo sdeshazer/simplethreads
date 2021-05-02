@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-struct thread{
-  pthread_t tid;
-  int threadnum;
-
-};
 
 
 void * foofun(void * arg){
